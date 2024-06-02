@@ -1,25 +1,35 @@
+/* Estilo para la barra de navegación principal */
 .main-nav {
-    margin-top: 10 px;
-    list-style: none;
-    padding-left: 0;
-    background-color: #13a4a4;
-}
-.main-nav__item {
-    display: inline-block;
-}
-.main-nav__item a {
-    color: white;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
+    margin-top: 10px; /* Espaciado superior de 10 píxeles */
+    list-style: none; /* Eliminación de los puntos de lista predeterminados */
+    padding-left: 0; /* Eliminación del padding izquierdo */
+    background-color: #13a4a4; /* Color de fondo para la barra de navegación */
 }
 
+/* Estilo para los elementos de la lista dentro de la barra de navegación */
+.main-nav__item {
+    display: inline-block; /* Mostrar los elementos en línea (uno al lado del otro) */
+}
+
+/* Estilo para los enlaces dentro de los elementos de la lista */
+.main-nav__item a {
+    color: white; /* Color del texto del enlace */
+    padding: 5px; /* Espaciado interno de 5 píxeles para el enlace */
+    border-radius: 2px; /* Bordes ligeramente redondeados */
+    text-decoration: none; /* Eliminación del subrayado predeterminado del enlace */
+}
+
+/* Estilo para los enlaces cuando el usuario pasa el cursor sobre ellos */
 .main-nav__item a:hover {
-    color: red;
+    color: red; /* Color del texto del enlace cuando el cursor está encima */
 }
+
+/* Estilo para los enlaces cuando son activados (clic) */
 .main-nav__item a:active {
-    color: blue;
+    color: blue; /* Color del texto del enlace cuando se hace clic */
 }
+
+/* Estilo para agregar un contenido después del enlace */
 .main-nav__item a::after {
-    content: " | ";
+    content: " | "; /* Agregar una barra vertical después de cada enlace */
 }
