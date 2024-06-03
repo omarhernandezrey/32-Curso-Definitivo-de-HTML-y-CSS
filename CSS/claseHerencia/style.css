@@ -1,0 +1,10 @@
+/* Estilo global para el elemento html */
+html {
+    font-size: 75%; /* Establece el tamaño de fuente base al 75% del tamaño predeterminado del navegador */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuente principal con alternativas */
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    font-size: inherit; /* Hereda el tamaño de fuente del elemento padre */
+}
