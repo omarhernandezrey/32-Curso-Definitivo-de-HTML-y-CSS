@@ -1,0 +1,14 @@
+/* Estilo global para todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+    padding: 0; /* Elimina cualquier padding predeterminado */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+}
+
+/* Estilo para el elemento principal (main) */
+main {
+    width: 100%; /* El ancho ocupa el 100% del contenedor padre */
+    height: 500px; /* Altura fija de 500 píxeles */
+    border: 10px solid gray; /* Borde de 10 píxeles de grosor y color gris */
+    padding: 20px 35px; /* Padding de 20 píxeles en la parte superior e inferior, y 35 píxeles en los lados */
+}
