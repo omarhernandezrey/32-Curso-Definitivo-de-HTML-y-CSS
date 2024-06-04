@@ -1,0 +1,51 @@
+/* Estilo global para todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier padding predeterminado */
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    color: purple; /* Color del texto del encabezado */
+    font-family: serif; /* Familia de fuentes serif */
+    margin-bottom: 10px; /* Margen inferior de 10 píxeles */
+}
+
+/* Estilo para el elemento con id page-title */
+#page-title {
+    font-family: Arial, Helvetica, sans-serif; /* Familia de fuentes sans-serif */
+}
+
+/* Estilo para los elementos con clase title */
+.title {
+    font-size: 18px; /* Tamaño de fuente de 18 píxeles */
+    font-family: monospace; /* Familia de fuentes monoespaciadas */
+}
+
+/* Estilo para el elemento con id main-nav */
+#main-nav {
+    margin-top: 10px; /* Margen superior de 10 píxeles */
+    list-style-type: none; /* Sin puntos de lista */
+    padding-left: 0; /* Sin padding izquierdo */
+}
+
+/* Estilo para los elementos li dentro de main-nav */
+#main-nav li {
+    display: inline; /* Mostrar los elementos en línea (uno al lado del otro) */
+}
+
+/* Estilo para los enlaces dentro de main-nav */
+#main-nav a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto */
+    background-color: #13a4aa; /* Color de fondo */
+    padding: 5px; /* Espaciado interno de 5 píxeles */
+    border-radius: 2px; /* Bordes ligeramente redondeados */
+}
+
+/* Estilo específico para los enlaces con clase contacto dentro de main-nav */
+#main-nav .contacto {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    color: black; /* Color del texto negro */
+}
