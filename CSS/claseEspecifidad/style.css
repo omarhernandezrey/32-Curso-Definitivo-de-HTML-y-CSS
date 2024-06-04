@@ -12,11 +12,6 @@ h1 {
     margin-bottom: 10px; /* Margen inferior de 10 píxeles */
 }
 
-/* Estilo para el elemento con id page-title */
-#page-title {
-    font-family: Arial, Helvetica, sans-serif; /* Familia de fuentes sans-serif */
-}
-
 /* Estilo para los elementos con clase title */
 .title {
     font-size: 18px; /* Tamaño de fuente de 18 píxeles */
@@ -24,19 +19,19 @@ h1 {
 }
 
 /* Estilo para el elemento con id main-nav */
-#main-nav {
+.nav {
     margin-top: 10px; /* Margen superior de 10 píxeles */
     list-style-type: none; /* Sin puntos de lista */
     padding-left: 0; /* Sin padding izquierdo */
 }
 
 /* Estilo para los elementos li dentro de main-nav */
-#main-nav li {
+.nav li {
     display: inline; /* Mostrar los elementos en línea (uno al lado del otro) */
 }
 
 /* Estilo para los enlaces dentro de main-nav */
-#main-nav a {
+.nav a {
     text-decoration: none; /* Sin subrayado */
     color: white; /* Color del texto */
     background-color: #13a4aa; /* Color de fondo */
@@ -45,7 +40,7 @@ h1 {
 }
 
 /* Estilo específico para los enlaces con clase contacto dentro de main-nav */
-#main-nav .contacto {
+.nav .contacto {
     background-color: #f0f0f0; /* Color de fondo gris claro */
     color: black; /* Color del texto negro */
 }
