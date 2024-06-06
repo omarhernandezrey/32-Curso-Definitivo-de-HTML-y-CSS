@@ -1,0 +1,4 @@
+/* Estilo para los párrafos que son hijos directos de un elemento div */
+div > p {
+    color: red; /* Color del texto del párrafo en rojo */
+}
