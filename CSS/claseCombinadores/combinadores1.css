@@ -1,0 +1,4 @@
+/* Estilo para los párrafos que son hermanos de un encabezado h2 */
+h2 ~ p {
+    color: red; /* Color del texto del párrafo en rojo */
+}
