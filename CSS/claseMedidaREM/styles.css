@@ -1,0 +1,53 @@
+/* Estilo global para todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier padding predeterminado */
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    font-size: 16px; /* Tamaño de fuente base de 16px (1rem) */
+    margin: 2rem; /* Margen de 2 rem alrededor del cuerpo */
+    padding: 1rem; /* Espaciado interno de 1 rem */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%; /* Ancho del 80% del contenedor padre */
+    max-width: 75rem; /* Ancho máximo de 75 rem */
+    height: auto; /* Altura automática, se ajusta al contenido */
+    padding: 1.5rem; /* Espaciado interno de 1.5 rem */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+/* Estilo para una caja específica */
+.box {
+    width: 18.75rem; /* Ancho fijo de 18.75 rem */
+    height: 12.5rem; /* Altura fija de 12.5 rem */
+    padding: 1.25rem; /* Espaciado interno de 1.25 rem */
+    margin-top: 1.875rem; /* Margen superior de 1.875 rem */
+    margin-bottom: 1.875rem; /* Margen inferior de 1.875 rem */
+    border: 0.125rem solid black; /* Borde de 0.125 rem de grosor y color negro */
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 100%; /* Ancho ocupa el 100% del contenedor padre */
+    max-width: 31.25rem; /* Ancho máximo de 31.25 rem */
+    height: auto; /* Altura automática, se ajusta al ancho */
+}
+
+/* Estilo para los botones */
+button {
+    padding: 0.625rem 1.25rem; /* Espaciado interno de 0.625 rem vertical y 1.25 rem horizontal */
+    font-size: 0.875rem; /* Tamaño de fuente de 0.875 rem */
+    border-radius: 0.3125rem; /* Bordes redondeados con un radio de 0.3125 rem */
+}
+
+/* Estilo para los encabezados h3 */
+h3 {
+    font-size: 1.5rem; /* Tamaño de fuente de 1.5 veces el tamaño base */
+    margin-top: 0.625rem; /* Margen superior de 0.625 rem */
+    margin-bottom: 0.625rem; /* Margen inferior de 0.625 rem */
+}
