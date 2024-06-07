@@ -1,0 +1,51 @@
+/* Estiliza el elemento body de la página. 
+   La fuente se establece en Arial, sans-serif.
+   La altura de línea se establece en 1.6 para un espaciado de texto cómodo.
+   El color de fondo se establece en #f0f0f0, que es un gris claro.
+   Los márgenes y el padding se establecen en 0 para eliminar cualquier espacio predeterminado alrededor y dentro del body. */
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza cualquier elemento con la clase "container". 
+   El ancho se establece en el 80% del ancho del contenedor padre, pero no más de 800px.
+   Los márgenes se establecen en 20px auto para centrar el contenedor en la página y darle un poco de espacio en la parte superior e inferior.
+   El color de fondo se establece en blanco.
+   El padding se establece en 20px para dar un poco de espacio alrededor del contenido dentro del contenedor.
+   Se agrega una sombra de caja ligera alrededor del contenedor para darle un poco de profundidad. */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza cualquier elemento con la clase "inline-block-element". 
+   El display se establece en inline-block para permitir que los elementos se coloquen uno al lado del otro.
+   El ancho se establece en el 45% del ancho del contenedor padre para permitir que dos elementos se ajusten en una línea.
+   El vertical-align se establece en top para alinear los elementos en la parte superior.
+   El color de fondo se establece en #f0f0f0, que es un gris claro.
+   El padding se establece en 10px para dar un poco de espacio alrededor del contenido dentro del elemento.
+   El margen superior se establece en 10px para dar un poco de espacio entre este elemento y cualquier elemento por encima de él.
+   Se agrega un borde de 1px sólido alrededor del elemento para definir su forma. */
+.inline-block-element {
+    display: inline-block;
+    width: 45%; /* Ajustamos el ancho para mostrar dos elementos en línea */
+    vertical-align: top; /* Alineamos los elementos en la parte superior */
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estiliza cualquier elemento p dentro de un elemento con la clase "inline-block-element". 
+   El margen se establece en 0 para eliminar cualquier espacio predeterminado alrededor del párrafo. */
+.inline-block-element p {
+    margin: 0;
+}
