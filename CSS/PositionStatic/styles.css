@@ -1,0 +1,34 @@
+/* Estilos generales */
+
+/* Establece la fuente y el color de fondo del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Utiliza la fuente Arial o una fuente genérica sans-serif */
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar el contenedor en la página con un margen superior e inferior de 20px y margen izquierdo y derecho automático */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    flex-wrap: wrap; /* Envuelve los elementos en múltiples líneas si es necesario */
+}
+
+/* Estilo básico de las cajas */
+.box {
+    padding: 20px; /* Añade relleno interior de 20px */
+    color: white; /* Color del texto blanco */
+    font-weight: bold; /* Establece el peso de la fuente a negrita */
+    background-color: #4CAF50; /* Fondo verde */
+    width: 150px; /* Ancho de la caja */
+    height: 150px; /* Altura de la caja */
+    margin: 10px; /* Añade márgenes exteriores de 10px */
+}
+
+/* Caja con posición estática */
+.static-box {
+    position: static; /* Posición estática (por defecto) */
+    background-color: #f44336; /* Fondo rojo */
+}
