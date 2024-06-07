@@ -1,0 +1,53 @@
+/* Estilo global para todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier padding predeterminado */
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    font-size: 1em; /* Tamaño de fuente base de 1em (16px por defecto en la mayoría de navegadores) */
+    margin: 2em; /* Margen de 2 em alrededor del cuerpo */
+    padding: 1em; /* Espaciado interno de 1 em */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%; /* Ancho del 80% del contenedor padre */
+    max-width: 75em; /* Ancho máximo de 75 em */
+    height: auto; /* Altura automática, se ajusta al contenido */
+    padding: 1.5em; /* Espaciado interno de 1.5 em */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+/* Estilo para una caja específica */
+.box {
+    width: 18.75em; /* Ancho fijo de 18.75 em */
+    height: 12.5em; /* Altura fija de 12.5 em */
+    padding: 1.25em; /* Espaciado interno de 1.25 em */
+    margin-top: 1.875em; /* Margen superior de 1.875 em */
+    margin-bottom: 1.875em; /* Margen inferior de 1.875 em */
+    border: 0.125em solid black; /* Borde de 0.125 em de grosor y color negro */
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 100%; /* Ancho ocupa el 100% del contenedor padre */
+    max-width: 31.25em; /* Ancho máximo de 31.25 em */
+    height: auto; /* Altura automática, se ajusta al ancho */
+}
+
+/* Estilo para los botones */
+button {
+    padding: 0.625em 1.25em; /* Espaciado interno de 0.625 em vertical y 1.25 em horizontal */
+    font-size: 0.875em; /* Tamaño de fuente de 0.875 em */
+    border-radius: 0.3125em; /* Bordes redondeados con un radio de 0.3125 em */
+}
+
+/* Estilo para los encabezados h3 */
+h3 {
+    font-size: 1.5em; /* Tamaño de fuente de 1.5 veces el tamaño base */
+    margin-top: 0.625em; /* Margen superior de 0.625 em */
+    margin-bottom: 0.625em; /* Margen inferior de 0.625 em */
+}
