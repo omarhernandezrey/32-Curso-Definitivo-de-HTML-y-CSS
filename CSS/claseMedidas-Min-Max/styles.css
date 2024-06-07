@@ -1,0 +1,40 @@
+/* Estilos generales */
+
+/* Establece la fuente y el color de fondo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar el contenedor en la página */
+    display: flex;
+    justify-content: space-between; /* Distribuir elementos con espacio entre ellos */
+}
+
+/* Estilo básico de las cajas */
+.box {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos específicos de ejemplo de max-width y min-width */
+
+/* Ejemplo de caja con max-width y min-width */
+.max-width-example {
+    background-color: #4CAF50; /* Verde */
+    max-width: 400px; /* Ancho máximo permitido */
+    min-width: 200px; /* Ancho mínimo permitido */
+}
+
+/* Ejemplo de otra caja con max-width y min-width */
+.min-width-example {
+    background-color: #2196F3; /* Azul */
+    max-width: 300px; /* Ancho máximo permitido */
+    min-width: 100px; /* Ancho mínimo permitido */
+}
