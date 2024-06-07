@@ -1,0 +1,52 @@
+/* Estilo global para todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier padding predeterminado */
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    margin: 20px; /* Margen de 20 píxeles alrededor del cuerpo */
+    padding: 10px; /* Espaciado interno de 10 píxeles */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%; /* Ancho del 80% del contenedor padre */
+    max-width: 1200px; /* Ancho máximo de 1200 píxeles */
+    height: auto; /* Altura automática, se ajusta al contenido */
+    padding: 15px; /* Espaciado interno de 15 píxeles */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+/* Estilo para una caja específica */
+.box {
+    width: 300px; /* Ancho fijo de 300 píxeles */
+    height: 200px; /* Altura fija de 200 píxeles */
+    padding: 20px; /* Espaciado interno de 20 píxeles */
+    margin-top: 30px; /* Margen superior de 30 píxeles */
+    margin-bottom: 30px; /* Margen inferior de 30 píxeles */
+    border: 2px solid black; /* Borde de 2 píxeles de grosor y color negro */
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 100%; /* Ancho ocupa el 100% del contenedor padre */
+    max-width: 500px; /* Ancho máximo de 500 píxeles */
+    height: auto; /* Altura automática, se ajusta al ancho */
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 20px; /* Espaciado interno de 10 píxeles vertical y 20 píxeles horizontal */
+    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
+    border-radius: 5px; /* Bordes redondeados con un radio de 5 píxeles */
+}
+
+/* Estilo para los encabezados h3 */
+h3 {
+    font-size: 1.5em; /* Tamaño de fuente de 1.5 veces el tamaño base */
+    margin-top: 10px; /* Margen superior de 10 píxeles */
+    margin-bottom: 10px; /* Margen inferior de 10 píxeles */
+}
