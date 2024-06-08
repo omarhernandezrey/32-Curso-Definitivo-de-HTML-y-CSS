@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box; /* Establece el modelo de caja para todos los elementos en 'border-box', lo que significa que el padding y el borde se incluirán en el ancho y alto total del elemento. */
+    margin: 0; /* Elimina el margen predeterminado de todos los elementos. */
+    padding: 0; /* Elimina el relleno predeterminado de todos los elementos. */
+}
+
+html {
+    font-size: 62.5%; /* Establece el tamaño de fuente base del documento en 62.5% del tamaño predeterminado del navegador, lo que facilita el uso de rem para tamaños relativos (1rem = 10px). */
+}
+
+body {
+    font-size: 1.6rem; /* Establece el tamaño de fuente base del cuerpo del documento en 1.6 rem, equivalente a 16px, asumiendo que 1rem es 10px por la configuración anterior. */
+}
+
+.container {
+    border: 0.3rem solid black; /* Aplica un borde negro de 0.3 rem de grosor alrededor del contenedor. */
+    display: flex; /* Utiliza el modelo de caja flexible para organizar el contenido del contenedor. */
+}
+
+.box {
+    width: 10rem; /* Establece el ancho de cada caja en 10 rem, equivalente a 100px, asumiendo que 1rem es 10px. */
+    height: 10rem; /* Establece la altura de cada caja en 10 rem, equivalente a 100px. */
+}
+
+.box1 {
+    background-color: red; /* Asigna el color de fondo rojo a la caja con la clase 'box1'. */
+}
+
+.box2 {
+    background-color: blue; /* Asigna el color de fondo azul a la caja con la clase 'box2'. */
+}
+
+.box3 {
+    background-color: green; /* Asigna el color de fondo verde a la caja con la clase 'box3'. */
+}
+
+.box4 {
+    background-color: yellow; /* Asigna el color de fondo amarillo a la caja con la clase 'box4'. */
+}
+
+.box5 {
+    background-color: pink; /* Asigna el color de fondo rosa a la caja con la clase 'box5'. */
+}
+
+.box6 {
+    background-color: purple; /* Asigna el color de fondo púrpura a la caja con la clase 'box6'. */
+}
