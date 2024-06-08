@@ -1,0 +1,39 @@
+:root {
+    --color-primario: #003476; /* Define el color primario como un azul oscuro. */
+    --color-secundario: #b4d2b4; /* Define el color secundario como un verde claro. */
+    --header-size: 4rem; /* Define el tamaño de fuente del encabezado (40px). */
+    --font: 1.8rem; /* Define el tamaño de fuente base (18px). */
+}
+
+* {
+    margin: 0; /* Elimina márgenes predeterminados. */
+    padding: 0; /* Elimina rellenos predeterminados. */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho y alto total. */
+}
+
+html {
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px). */
+}
+
+header {
+    width: 100vw; /* Ancho completo de la ventana gráfica. */
+    height: 15vh; /* Altura del 15% de la ventana gráfica. */
+    background-color: var(--color-primario); /* Fondo azul oscuro. */
+}
+
+main {
+    width: 100vw; /* Ancho completo de la ventana gráfica. */
+    height: 70vh; /* Altura del 70% de la ventana gráfica. */
+    font-size: var(--font); /* Tamaño de fuente de 18px. */
+}
+
+h1 {
+    font-size: var(--header-size); /* Tamaño de fuente de 40px. */
+    color: var(--color-primario); /* Color del texto azul oscuro. */
+}
+
+footer {
+    width: 100vw; /* Ancho completo de la ventana gráfica. */
+    height: 15vh; /* Altura del 15% de la ventana gráfica. */
+    background-color: var(--color-secundario); /* Fondo verde claro. */
+}
