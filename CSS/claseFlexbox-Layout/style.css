@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box; /* Incluye padding y borde en el ancho y alto total. */
+    margin: 0; /* Elimina márgenes predeterminados. */
+    padding: 0; /* Elimina rellenos predeterminados. */
+}
+
+html {
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px). */
+}
+
+body {
+    font-size: 1.6rem; /* Define fuente base a 16px (1.6rem). */
+}
+
+.container {
+    border: 0.3rem solid black; /* Borde negro de 3px. */
+    display: flex; /* Usa modelo flexbox. */
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan. */
+}
+
+.box {
+    height: 10rem; /* Altura de 100px (10rem). */
+    flex-basis: 10rem; /* Ancho base de 100px (10rem). */
+    flex-grow: 1; /* Permite que las cajas crezcan proporcionalmente. */
+}
+
+.box1 {
+    background-color: red; /* Fondo rojo. */
+}
+
+.box2 {
+    background-color: blue; /* Fondo azul. */
+}
+
+.box3 {
+    background-color: green; /* Fondo verde. */
+}
+
+.box4 {
+    background-color: yellow; /* Fondo amarillo. */
+}
+
+.box5 {
+    background-color: pink; /* Fondo rosa. */
+}
+
+.box6 {
+    background-color: purple; /* Fondo púrpura. */
+}
