@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box; /* Incluye padding y borde en el ancho y alto total. */
+    margin: 0; /* Elimina márgenes predeterminados. */
+    padding: 0; /* Elimina rellenos predeterminados. */
+}
+
+html {
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px). */
+}
+
+.container {
+    display: flex; /* Usa modelo flexbox. */
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan. */
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+    width: 100%; /* Ancho completo. */
+    min-width: 150px; /* Ancho mínimo de 150px. */
+    height: 150px; /* Altura de 150px. */
+}
+
+.c4 {
+    height: auto; /* Altura automática basada en el contenido. */
+}
+
+.c1 {
+    background-color: #003476; /* Fondo azul oscuro. */
+}
+
+.c2 {
+    background-color: #0062d2; /* Fondo azul medio. */
+}
+
+.c3 {
+    background-color: #b4d2f7; /* Fondo azul claro. */
+}
+
+.c4 {
+    background-color: #d5dfef; /* Fondo gris claro azulado. */
+}
+
+.c5 {
+    background-color: #dfe1e5; /* Fondo gris claro. */
+}
+
+@media (min-width: 600px) {
+    .c1 {
+        width: 25%; /* Ancho del 25% cuando el ancho de la pantalla es al menos 600px. */
+    }
+    .c4 {
+        width: 75%; /* Ancho del 75% cuando el ancho de la pantalla es al menos 600px. */
+    }
+    .c5 {
+        width: 100%; /* Ancho completo cuando el ancho de la pantalla es al menos 600px. */
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 800px; /* Ancho fijo de 800px. */
+        margin-left: auto; /* Centra el contenedor horizontalmente. */
+        margin-right: auto; /* Centra el contenedor horizontalmente. */
+    }
+    .c1 {
+        width: 50%; /* Ancho del 50% cuando el ancho de la pantalla es al menos 800px. */
+        order: 1; /* Ordena este elemento en primer lugar. */
+    }
+    .c4 {
+        width: 100%; /* Ancho completo cuando el ancho de la pantalla es al menos 800px. */
+    }
+    .c5 {
+        width: 50%; /* Ancho del 50% cuando el ancho de la pantalla es al menos 800px. */
+        order: 2; /* Ordena este elemento en segundo lugar. */
+    }
+}
